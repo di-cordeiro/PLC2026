@@ -1,0 +1,42 @@
+[
+    { 
+        "id": "VAR", 
+        "expreg": "\\?[a-zA-Z0-9]+" 
+    },
+    { 
+        "id": "LING",
+        "expreg": "@\\w{2}" 
+    },
+    { 
+        "id": "STRING", 
+        "expreg": "\"[^\"]*\""
+    },
+    { 
+        "id": "LIMIT", 
+        "expreg": "\\bLIMIT\\b" 
+    },
+    { 
+        "id": "NUM", 
+        "expreg": "\\d+" 
+    },
+    { 
+        "id": "CONCEITO",
+        "expreg": "[a-zA-Z0-9:]+" 
+    },
+    { 
+        "id": "DELIM", 
+        "expreg": "[{}.]" 
+    },
+    { 
+        "id": "SKIP", 
+        "expreg": "[ \\t]|#.*" 
+    },
+    { 
+        "id": "NEWLINE", 
+        "expreg": "\\n" 
+    },
+    { 
+        "id": "ERRO", 
+        "expreg": "." 
+    }
+]
