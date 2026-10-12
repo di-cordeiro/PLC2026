@@ -7,3 +7,4 @@ Repositório com os trabalhos da UC de Processamento de Linguagens e Compiladore
 
 - [TP1](TP1/README.md): expressão regular para strings binárias sem "011"
 - [TP2](TP2/README.md): conversor de MarkDown para HTML
+- [TP3](TP3/README.md): analisador léxico
